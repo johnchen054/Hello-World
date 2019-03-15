@@ -14,6 +14,10 @@ int main()
    	cin >> n;
    	for (int i = 0; i < n; i++)
    		cout << i+1 << ". Hello" << endl;
+    if (n<10)
+        cout << "Good" << endl;
+    else
+        cout << "Bad" << endl;
     return 0;
     
 }
