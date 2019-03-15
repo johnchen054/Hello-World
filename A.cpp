@@ -14,6 +14,7 @@ int main()
    	cin >> n;
    	for (int i = 0; i < n; i++)
    		cout << i+1 << ". Hello" << endl;
+    cout << "Done" << endl;
     return 0;
     
 }
